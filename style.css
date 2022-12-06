@@ -1,0 +1,103 @@
+.tapis{
+  width: 90%;
+border-radius: 2rem;
+ background-image: url(img/tapis.jpg);
+ border: 7px solid #A66530;
+}
+  .joueur1 ,.joueur2 {
+height: 8.438rem;
+width: 8.438rem;
+border:  3px solid rgb(150, 129, 9);
+border-radius: 50%;
+  }
+  .pot{
+      height: 7rem;
+      width: 30%;
+      border:  3px solid rgb(150, 129, 9);
+      border-radius: 1rem;
+  }
+  .jeuxdes{
+      position: relative;
+      height: 25%;
+      width: 40%;
+      border-radius: 0.3rem;
+      border: 3px solid rgb(150, 129, 9);
+  }
+  .nav-link{
+      color: rgb(226, 226, 235);
+  }
+nav{
+      background-color: rgb(96, 101, 99);
+  }
+  .troisD img {
+      height: 100%;
+      width: 27%;
+    
+    }
+    #lancer1 , #lancer2{
+      width: 8rem;
+      border-radius: 10px;
+      font-size: 12px;
+      border: 2px solid #A66530;
+
+    }
+    #start{
+      border-radius: 10px;
+      font-size: 12px;
+      border: 2px solid #A66530;
+      width: 5rem;
+    }
+    .joueur1{
+     
+     
+      background-image: url(img/jetonrouge.png);
+      background-repeat: no-repeat;
+    }
+    .joueur2{
+  
+      background-image: url(img/jetonbleu.png);
+      background-repeat: no-repeat;
+
+    }
+     #j1 , #pot ,#jetonj1 , #jetonj2 , .couleurpot , .textTour, #tour{
+      color:red ;
+    }
+    #j2{
+      color: blue;
+    }
+    #inputJ1 , #inputJ2{
+      padding: 0.5rem;
+      border-radius: 2rem;
+      width: 15rem;
+      
+    }
+    #inputJ1{
+color: red;
+    }
+    #inputJ2{
+color: blue;
+    }
+    #inputJ1::placeholder{
+      text-align: center;
+      color: red;
+    }
+    #inputJ2::placeholder{
+      text-align: center;
+      color: blue;
+    }
+    #inputJ1:hover{
+      background-color: rgb(244, 179, 179);
+    }
+    #inputJ2:hover{
+      background-color: rgb(115, 115, 248);
+    }
+
+    #pseudoVainqueur2{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+    }
+    .imgcouronne{
+      position: relative;
+    }

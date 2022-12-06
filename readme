@@ -1,0 +1,38 @@
+README                                                                                                JEU 421
+
+Test branche
+
+-- les Règles du jeu 421
+
+
+
+--Le déroulement du jeu
+ chaque joueur doit lancer un dé et celui qui a le plus gros score commence la partie.
+ Et si jamais, il y a ex aequo, il faut que les joueurs concernés recommencent.
+
+ Dès que le premier est désigné, il faut distribuer les jetons dans le « pot ». Ici, la distribution ne s’agit pas de remettre à chacun le même nombre de jetons mais il faut le mériter, cela s’appelle « charge ».
+ Dans cette phase, les joueurs lancent les dés à tour de rôle et quand on lance, il faut espérer de faire apparaitre la plus faible combinaison puisque le nombre des jetons obtenus en dépend et que le but du jeu est de se débarrasser de tous ces jetons le plutôt possible.
+
+ Dès que tous les jetons sont distribués et il n’y en a plus dans le pot, on commence la deuxième phase qui se nomme « décharge ». Si jamais tous les jetons sont récupérés par un seul joueur, celui-ci perd automatiquement la partie.
+ Pendant la décharge, les joueurs font en sorte de se débarrasser de tous ses jetons en faisant une combinaison avec les trois dés. Dans cette période, tous les participants peuvent améliorer leurs combinaisons en relançant un ou tous les dés.
+
+Pour mieux comprendre, il faut d’abord connaitre la valeur de chaque combinaison.
+
+--Les combinaisons 
+Il existe 56 probabilités de résultat pendant un lancer qui sont regroupées comme suit :
+La combinaison 4 2 1, composée évidement de la face 4, 2 et 1. C’est la plus forte combinaison et qui vaut : soit 10, soit tous les jetons restants.
+La combinaison fiches, aussi nommée Mac, X purs ou deux as est composée de deux as et d’une troisième valeur. Sa valeur est équivalente à la valeur du troisième dé, par exemple 1, 1, 4 vaut quatre points.
+La combinaison baraques ou brelan est composée de trois faces de mêmes valeurs. La valeur de la combinaison ici est pareil que la valeur des faces visibles. Par exemple, si le joueur fait face 5 5 5, la combinaison vaut donc 5. Par contre, la valeur d’un triple as est 7 jetons.
+La combinaison tierces est composée de trois chiffres successifs. Sa valeur est équivalente à 2. Et si au hasard, il arrive de comparer la combinaison de 6 5 4 et 3 2 1, 6 5 4 est plus fort.
+Le gagnant du jeu est celui qui a pu se débarrasser de tous ses jetons en premier. Celui-ci sort du jeu à ce moment, et les autres continuent jusqu’à ce qu’un joueur a tous les jetons.
+
+
+
+
+-  WEB SITE          http://123des.fr
+- Langages utilisés : HTML/CSS - JAVASCRIPT
+- Matériel requis : fonctionne sous un simple navigateur web
+
+
+
+-Equipe gérant le projet : Choukri , Benjamin , Aurélien , Quentin , Florian , Farés .
